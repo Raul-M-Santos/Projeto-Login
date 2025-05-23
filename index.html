@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="Estilos/style.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <main>
+      <section id="login">
+        <div id="img">
+          <img src="Imagens/pexels-laura-tancredi-7078502.jpg" alt="imglogin" />
+        </div>
+
+        <div id="formulario">
+          <h1>Login</h1>
+          <p>
+            Seja bem-vindo(a) novamente. Faça login para acessar sua conta e
+            poder fazer as configurações no seu ambiente
+          </p>
+
+          <form action="sla.php" method="post" autocomplete="on">
+            <label for="iemail">
+              <span class="material-symbols-outlined filled">person</span>
+
+              <input
+                type="email"
+                name="email"
+                id="iemail"
+                required
+                minlength="10"
+                autocomplete="email"
+                class="campo"
+                placeholder="Seu Email"
+              />
+            </label>
+
+            <label for="ipass">
+              <span class="material-symbols-outlined"> vpn_key </span>
+
+              <input
+                type="password"
+                name="pass"
+                id="ipass"
+                required
+                minlength="8"
+                autocomplete="new-password"
+                class="campo"
+                placeholder="Sua Senha"
+              />
+            </label>
+
+            <input type="submit" value="Entrar" class="send" />
+            <input
+              type="button"
+              value="Esqueci a senha &#x1f4e7;"
+              class="send"
+            />
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

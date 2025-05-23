@@ -13,6 +13,7 @@
 
 body {
   background-color: var(--cormain);
+  height: 100vh;
 }
 
 section {
@@ -21,7 +22,7 @@ section {
 
 main {
   position: absolute;
-  top: 62%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   border-radius: 10px;
@@ -31,8 +32,6 @@ main {
 }
 
 img {
-  position: absolute;
-  top: -260px;
   width: 270px;
   height: 270px;
   border-radius: 10px 10px 0px 0px;

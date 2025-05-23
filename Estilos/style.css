@@ -9,104 +9,47 @@
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
 }
 
-body {
+body,
+html {
   background-color: var(--cormain);
   width: 100vw;
-  height: 100dvh;
-}
-
-section {
-  position: relative;
+  height: 100vh;
 }
 
 main {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+section#login {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  background-color: white;
+  width: 250px;
+  height: 500px;
   border-radius: 10px;
-  background-color: white;
-  min-width: 270px;
-  max-width: 270px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.233);
+  overflow: hidden;
+  transition: width 0.2s, height 0.2s;
+  transition-timing-function: ease;
 }
 
-img {
-  width: 270px;
-  height: 270px;
-  border-radius: 10px 10px 0px 0px;
-}
-
-div {
-  padding: 10px;
-}
-
-div#img {
-  padding: 0px;
-}
-
-div > h1 {
-  text-align: center;
-  padding: 10px;
-}
-
-div > p {
-  font-weight: 0.9em;
-  padding: 5px;
-}
-
-label {
-  width: 242px;
-  position: relative;
-  background-color: var(--cormain);
-  color: white;
+section#login > div#img {
   display: block;
-  border-radius: 5px;
-  margin: auto;
-  height: 35px;
-  margin-bottom: 3px;
-  padding: 1px;
-  text-align: center;
+  background: #5f2c82 url(../Imagens/pexels-laura-tancredi-7078502.jpg)
+    no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 200px;
 }
 
-.material-symbols-outlined {
-  font-variation-settings: "FILL" 1;
-  font-size: 25px;
-  vertical-align: middle;
-  margin: 0;
-  padding: 0;
-  margin-left: 3px;
-}
-
-input {
-  padding-top: 3px;
-  background-color: var(--corbotoes);
-  color: black;
-  width: 86.3%;
-  height: 90%;
-  border-radius: 5px;
-  color: var(--corbotoes);
-  color: black;
-  border: none;
-}
-
-.send {
+section#login > div#formulario {
   display: block;
-  text-align: center;
-  margin: auto;
-  background-color: white;
-  color: var(--corbotoes);
-  border: 1px solid var(--corbotoes);
-  border-radius: 5px;
-  padding: 10px;
-  width: 242px;
-  margin: 5px;
-  height: 35px;
-}
-
-.send:hover {
-  color: white;
-  background-color: var(--corbotoes);
-  border: 1px solid var(--cormain);
+  
 }

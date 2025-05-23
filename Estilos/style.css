@@ -69,8 +69,9 @@ form label {
 
 div.campo > span {
   color: white;
-  font-size: 2em;
+  font-size: 1.8em;
   width: 40px;
+  line-height: 30px;
   padding: 5px;
 }
 
@@ -78,10 +79,12 @@ div.campo input {
   background-color: var(--corbotoes);
   border-radius: 8px;
   width: calc(100% - 45.9px);
+  height: 30px;
   height: 100%;
   border: 0px;
   padding: 4px;
-  transform: translateY(-15px);
+  line-height: 30px;
+  transform: translateY(-12px);
 }
 
 div.campo input:focus-within {

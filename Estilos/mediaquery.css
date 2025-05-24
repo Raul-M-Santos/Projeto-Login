@@ -71,7 +71,8 @@
   }
 }
 
-@media (min-resolution: 1dppx) {
+
+@media (min-resolution: 2dppx) {
   div.campo input {
     transform: translateY(-14px);
   }

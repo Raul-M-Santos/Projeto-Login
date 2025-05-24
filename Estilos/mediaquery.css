@@ -64,3 +64,15 @@
     width: 89.5%;
   }
 }
+
+@media (min-resolution: 3dppx) {
+  div.campo input {
+    transform: translateY(-13px);
+  }
+}
+
+@media (min-resolution: 1dppx) {
+  div.campo input {
+    transform: translateY(-14px);
+  }
+}

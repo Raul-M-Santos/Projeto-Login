@@ -64,9 +64,3 @@
     width: 89.5%;
   }
 }
-
-@media only screen and (min-width: 375px) and (max-width: 812px) and (-webkit-device-pixel-ratio: 3) {
-  div.campo input {
-    transform: translateY(-12px); /* Ajuste fino para o iPhone X */
-  }
-}

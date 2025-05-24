@@ -8,7 +8,7 @@
   }
 
   section#login {
-    width: 80vw;
+    width: 666px;
     height: 275px;
   }
 
@@ -25,6 +25,9 @@
 
   div#formulario > p {
     font-size: 1em;
+  }
+  div.campo input {
+    width:  89.9%;
   }
 }
 
@@ -55,5 +58,9 @@
   div#formulario > p {
     font-size: 1.1em;
     padding: 20px 0px;
+  }
+
+  div.campo input {
+    width:  89.5%;
   }
 }

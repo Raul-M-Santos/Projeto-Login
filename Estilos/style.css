@@ -77,8 +77,8 @@ div.campo > span {
 div.campo input {
   background-color: var(--corbotoes);
   border-radius: 8px;
-  width: calc(100% - 45px);
   height: 100%;
+  width:  80%;
   border: 0px;
   padding: 4px;
   transform: translateY(-13px);

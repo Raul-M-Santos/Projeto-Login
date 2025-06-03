@@ -91,7 +91,7 @@ div.campo > input {
   background-color: var(--corbotoes);
   border-radius: 8px;
   height: 38px;
-  width: calc(100% - 45px);
+  width: calc(100% - 44.1px);
   border: none;
   padding: 0 10px;
   display: inline-block;
